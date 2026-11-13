@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Естественное движение населения по регионам России</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wv6hxg95EWIVT66EnD4QTcHx4otXuklQoISq61CHuKMqS2ursBRl44maJ04MY05sewPYC89vuKDQGp3IgBqvWcNZo18bKNmJcbGo6FyOA6Vn1Vmk08MXG--_RawPTwcfG_Ui-g_T-7Nca7bTN-0UeW_-ALWDs6zaDt7YiSWSVuPhCgwhlXu8LeFelUtkKhV1RSuyMM-kYG2jlYAx5DYcENL1rSXDz9fcWNa7kzAiBy5T4Z2djr3x5iyUWqQyaJ8nb3ztOsl2lybJtytV3py2FAr5_FOn42wK86Pbm-6vPHtohZgz6oFIk0sGn7JSVOb9vz3domiv_2klx0BXXAdckPkEoVqnGtfnY9-W75FkTiSJk8xEl7Z1CNE3XGDfbMG0KPDmTZyqR9rXJpDpnezAm9I1tqHKI2b7-_ZmWvfXSXajAAjjkUhDUBAh3WiEEjAgLbxSoKeO0yGhdj1fZgYbA17arRL13UpL1WGGnuTNQkRrFnX88_irC1Feb06JuNCkEdmLLOIGE3qE3OqEJtKazdSwTwl16oAdof_oZ0MaYRVmNwJnWNpppYnmkeLy4NbFUC7fPMniKhmJmvoEFSMk8llQWflAwsC3y3FYXPCh2zwu8j06jqkMEbw-JaKQNBTy5Gz99heOKo0Uc3WJWcmlOwT0hO5FGnAa7YbanLcuP8p26HAJqNIDMsMaDWv_i7lu_aXF67y_DAg6RSTHkxL9E_KB1XWqb1WJSFOlFXTI0-w" charset="UTF-8"></script><style>
+:root{--bg:#f7f6f2;--card:#fff;--tx:#1f2328;--mu:#636a73;--bd:#dcdad2;--pos:#0f6e56;--neg:#b5483a;--ac:#185fa5;--tr:#ecebe5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17181a;--card:#222426;--tx:#ececea;--mu:#a1a6ad;--bd:#383b3f;--pos:#5dcaa5;--neg:#e0877a;--ac:#85b7eb;--tr:#2e3033;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17181a;--card:#222426;--tx:#ececea;--mu:#a1a6ad;--bd:#383b3f;--pos:#5dcaa5;--neg:#e0877a;--ac:#85b7eb;--tr:#2e3033;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.w{max-width:1100px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:22px;margin:0 0 4px;font-weight:600}h2{font-size:16px;margin:0 0 10px;font-weight:600}
+.sub{color:var(--mu);font-size:13px;margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:12px}
+.kpi b{display:block;font-size:26px;font-weight:600}.kpi span{color:var(--mu);font-size:13px}
+.flt{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px;align-items:end}
+.flt label{display:flex;flex-direction:column;font-size:12px;color:var(--mu);gap:3px}
+select,input{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);min-width:130px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+@media(max-width:820px){.g{grid-template-columns:1fr}}
+.row{display:grid;grid-template-columns:minmax(110px,190px) 1fr 48px;gap:8px;align-items:center;font-size:13px;margin:3px 0}
+.row .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tr{position:relative;height:14px;background:var(--tr);border-radius:3px}
+.bar{position:absolute;top:0;height:100%;border-radius:3px}
+.v{text-align:right;font-variant-numeric:tabular-nums}
+.ov{overflow-x:auto;max-height:420px;overflow-y:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--bd);white-space:nowrap}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+th{position:sticky;top:0;background:var(--card);cursor:pointer;font-weight:600}
+.pos{color:var(--pos)}.neg{color:var(--neg)}
+.note{color:var(--mu);font-size:12px;margin-top:10px}
+svg text{fill:var(--mu);font-size:11px}
+</style></head><body><div class="w">
+<h1>Естественное движение населения по регионам России</h1>
+<p class="sub">Рождаемость, смертность и естественный прирост (убыль). Все субъекты РФ по официальному справочнику, по которым есть данные. Федеральные округа и итог по стране не включены. Для Тюменской и Архангельской областей показаны данные без автономных округов, которые даны отдельными строками.</p>
+<div class="kpis" id="k"></div>
+<div class="card flt">
+<label>Федеральный округ<select id="fd"></select></label>
+<label>Показатель<select id="m"><option value="4">Естественный прирост / убыль</option><option value="2">Рождаемость</option><option value="3">Смертность</option></select></label>
+<label>Динамика<select id="st"><option value="">Все регионы</option><option value="p">Только прирост</option><option value="n">Только убыль</option></select></label>
+<label>Сколько показать<select id="top"><option value="10">10</option><option value="20" selected>20</option><option value="999">Все</option></select></label>
+<label>Порядок<select id="o"><option value="d">По убыванию</option><option value="a">По возрастанию</option></select></label>
+<label>Поиск региона<input id="q" placeholder="например, Самарская"></label>
+</div>
+<div class="g">
+<div class="card"><h2 id="bt"></h2><div id="bars"></div></div>
+<div class="card"><h2>Рождаемость и смертность</h2><svg id="sc" viewBox="0 0 520 380" width="100%" role="img" aria-label="Диаграмма рассеяния: рождаемость и смертность по регионам"></svg>
+<p class="note">Точка ниже диагонали: рождаемость выше смертности (прирост). Выше диагонали: убыль.</p></div>
+</div>
+<div class="card"><h2>Таблица (нажмите на заголовок для сортировки)</h2><div class="ov"><table id="t"></table></div></div>
+<p class="note">Состав регионов сверен со справочником субъектов РФ (89 субъектов). Данных нет по 4 из них: Донецкая Народная Республика, Луганская Народная Республика, Запорожская и Херсонская области, поэтому на дашборде 85 субъектов. Показатели даны на 1 000 населения. Средние значения по регионам простые, без учёта численности населения. Федеральный округ добавлен для группировки. Источник и период данных: [укажите].</p>
+</div>
+<script>
+const D=[["Чеченская Республика","Северо-Кавказский",20.0,4.3,15.7],["Республика Ингушетия","Северо-Кавказский",15.1,3.2,11.9],["Республика Дагестан","Северо-Кавказский",13.1,4.5,8.6],["Республика Тыва","Сибирский",17.1,8.9,8.2],["Ямало-Ненецкий автономный округ","Уральский",12.9,5.5,7.4],["Ханты-Мансийский автономный округ — Югра","Уральский",10.8,6.2,4.6],["Кабардино-Балкарская Республика","Северо-Кавказский",11.0,7.5,3.5],["Республика Саха (Якутия)","Дальневосточный",11.2,7.8,3.4],["Республика Алтай","Сибирский",12.8,10.7,2.1],["Ненецкий автономный округ","Северо-Западный",12.2,10.5,1.7],["Карачаево-Черкесская Республика","Северо-Кавказский",9.5,8.4,1.1],["Республика Северная Осетия — Алания","Северо-Кавказский",10.3,9.5,0.8],["Чукотский автономный округ","Дальневосточный",10.9,10.1,0.8],["Тюменская область (без автономных округов)","Уральский",10.7,9.9,0.8],["Москва","Центральный",9.2,8.8,0.4],["Псковская область","Северо-Западный",7.0,17.0,-10.0],["Смоленская область","Центральный",5.8,15.2,-9.4],["Тверская область","Центральный",7.0,16.3,-9.3],["Новгородская область","Северо-Западный",7.0,16.1,-9.1],["Владимирская область","Центральный",6.4,15.5,-9.1],["Орловская область","Центральный",6.6,15.7,-9.1],["Ивановская область","Центральный",7.2,16.1,-8.9],["Тамбовская область","Центральный",6.6,15.5,-8.9],["Рязанская область","Центральный",6.0,14.8,-8.8],["Тульская область","Центральный",6.4,15.2,-8.8],["Курганская область","Уральский",7.9,16.4,-8.5],["Республика Карелия","Северо-Западный",8.1,16.5,-8.4],["Пензенская область","Приволжский",6.6,14.8,-8.2],["Костромская область","Центральный",7.8,15.5,-7.7],["Кировская область","Приволжский",7.5,15.1,-7.6],["Курская область","Центральный",7.1,14.5,-7.4],["Брянская область","Центральный",6.9,14.3,-7.4],["Липецкая область","Центральный",7.1,14.4,-7.3],["Ярославская область","Центральный",7.6,14.9,-7.3],["Республика Мордовия","Приволжский",6.0,13.3,-7.3],["Воронежская область","Центральный",7.2,14.3,-7.1],["Нижегородская область","Приволжский",7.5,14.6,-7.1],["Саратовская область","Приволжский",6.6,13.6,-7.0],["Белгородская область","Центральный",6.6,13.4,-6.8],["Архангельская область (без автономного округа)","Северо-Западный",7.5,14.2,-6.7],["Кемеровская область","Сибирский",7.3,13.9,-6.6],["Алтайский край","Сибирский",7.8,14.4,-6.6],["Ульяновская область","Приволжский",7.5,14.1,-6.6],["Волгоградская область","Южный",6.8,12.8,-6.0],["Самарская область","Приволжский",7.6,13.5,-5.9],["Вологодская область","Северо-Западный",7.9,13.8,-5.9],["Ленинградская область","Северо-Западный",5.9,11.4,-5.5],["Республика Крым","Южный",8.3,13.8,-5.5],["Калужская область","Центральный",7.7,13.2,-5.5],["Приморский край","Дальневосточный",8.7,14.1,-5.4],["Ростовская область","Южный",7.7,13.0,-5.3],["Еврейская автономная область","Дальневосточный",9.1,14.3,-5.2],["Оренбургская область","Приволжский",8.7,13.7,-5.0],["Амурская область","Дальневосточный",9.2,14.1,-4.9],["Омская область","Сибирский",8.3,13.1,-4.8],["Республика Коми","Северо-Западный",8.7,13.4,-4.7],["Калининградская область","Северо-Западный",7.3,11.8,-4.5],["Республика Марий Эл","Приволжский",8.1,12.5,-4.4],["Чувашская Республика","Приволжский",8.1,12.5,-4.4],["Мурманская область","Северо-Западный",8.3,12.7,-4.4],["Пермский край","Приволжский",9.0,13.3,-4.3],["Хабаровский край","Дальневосточный",9.1,13.3,-4.2],["Свердловская область","Уральский",9.1,13.3,-4.2],["Челябинская область","Уральский",8.9,12.8,-3.9],["Удмуртская Республика","Приволжский",8.4,12.3,-3.9],["Магаданская область","Дальневосточный",8.3,12.1,-3.8],["Томская область","Сибирский",7.7,11.4,-3.7],["Республика Хакасия","Сибирский",9.1,12.7,-3.6],["Севастополь","Южный",6.6,10.1,-3.5],["Сахалинская область","Дальневосточный",10.0,13.5,-3.5],["Новосибирская область","Сибирский",9.3,12.8,-3.5],["Иркутская область","Сибирский",10.0,13.3,-3.3],["Краснодарский край","Южный",9.1,12.3,-3.2],["Красноярский край","Сибирский",9.1,12.3,-3.2],["Забайкальский край","Дальневосточный",10.5,13.7,-3.2],["Республика Башкортостан","Приволжский",8.7,11.7,-3.0],["Московская область","Центральный",8.5,11.0,-2.5],["Ставропольский край","Северо-Кавказский",8.5,10.8,-2.3],["Санкт-Петербург","Северо-Западный",8.6,10.7,-2.1],["Астраханская область","Южный",9.9,11.8,-1.9],["Республика Адыгея","Южный",8.7,10.5,-1.8],["Республика Татарстан","Приволжский",9.1,10.8,-1.7],["Камчатский край","Дальневосточный",10.2,11.8,-1.6],["Республика Бурятия","Дальневосточный",10.5,11.8,-1.3],["Республика Калмыкия","Южный",9.1,9.5,-0.4]];
+const S={fd:"",m:4,st:"",top:20,o:"d",q:"",ts:4,td:-1};
+const $=i=>document.getElementById(i),f1=x=>x.toFixed(1).replace(".",","),sg=x=>(x>0?"+":"")+f1(x);
+const fds=[...new Set(D.map(r=>r[1]))].sort();
+$("fd").innerHTML='<option value="">Все округа</option>'+fds.map(x=>`<option>${x}</option>`).join("");
+const NM={4:"Естественный прирост / убыль",2:"Рождаемость",3:"Смертность"};
+function flt(){const q=S.q.trim().toLowerCase();return D.filter(r=>(!S.fd||r[1]===S.fd)&&(!S.st||(S.st==="p"?r[4]>0:r[4]<=0))&&(!q||r[0].toLowerCase().includes(q)))}
+const avg=(a,i)=>a.length?a.reduce((s,r)=>s+r[i],0)/a.length:0;
+function kpi(a){const p=a.filter(r=>r[4]>0).length;
+$("k").innerHTML=[["Регионов",a.length],["Средняя рождаемость",f1(avg(a,2))],["Средняя смертность",f1(avg(a,3))],["Средняя убыль/прирост",sg(avg(a,4))],["Регионов с приростом",p+" из "+a.length]].map(x=>`<div class="card kpi"><b>${x[1]}</b><span>${x[0]}</span></div>`).join("")}
+function bars(a){const i=+S.m,s=[...a].sort((x,y)=>S.o==="d"?y[i]-x[i]:x[i]-y[i]).slice(0,+S.top);
+$("bt").textContent=NM[i]+": "+(S.o==="d"?"от большего к меньшему":"от меньшего к большему");
+if(!s.length){$("bars").innerHTML='<p class="note">Нет регионов по выбранным условиям.</p>';return}
+const mn=Math.min(0,...s.map(r=>r[i])),mx=Math.max(0,...s.map(r=>r[i])),sp=(mx-mn)||1,z=(-mn/sp)*100;
+$("bars").innerHTML=s.map(r=>{const v=r[i],w=Math.abs(v)/sp*100,l=v>=0?z:z-w,c=i===4?(v>0?"var(--pos)":"var(--neg)"):"var(--ac)";
+return`<div class="row"><span class="n" title="${r[0]}">${r[0]}</span><span class="tr"><span class="bar" style="left:${l}%;width:${w}%;background:${c}"></span></span><span class="v">${i===4?sg(v):f1(v)}</span></div>`}).join("")}
+function sc(a){const X=[4,22],Y=[2,19],W=520,H=380,L=40,B=34,sx=v=>L+(v-X[0])/(X[1]-X[0])*(W-L-10),sy=v=>H-B-(v-Y[0])/(Y[1]-Y[0])*(H-B-10);
+let s=`<line x1="${sx(4)}" y1="${sy(4)}" x2="${sx(19)}" y2="${sy(19)}" stroke="var(--mu)" stroke-dasharray="4 4"/>`;
+for(let v=4;v<=22;v+=2)s+=`<text x="${sx(v)}" y="${H-16}" text-anchor="middle">${v}</text>`;
+for(let v=2;v<=18;v+=4)s+=`<text x="${L-6}" y="${sy(v)+4}" text-anchor="end">${v}</text>`;
+s+=`<text x="${W/2}" y="${H-2}" text-anchor="middle">Рождаемость</text><text transform="translate(10 ${H/2}) rotate(-90)" text-anchor="middle">Смертность</text>`;
+a.forEach(r=>{s+=`<circle cx="${sx(r[2])}" cy="${sy(r[3])}" r="5" fill="${r[4]>0?"var(--pos)":"var(--neg)"}" fill-opacity=".75"><title>${r[0]}: рождаемость ${f1(r[2])}, смертность ${f1(r[3])}, итог ${sg(r[4])}</title></circle>`});
+$("sc").innerHTML=s}
+function tab(a){const i=S.ts,d=S.td,s=[...a].sort((x,y)=>(typeof x[i]==="string"?x[i].localeCompare(y[i],"ru"):x[i]-y[i])*d);
+const H=["Регион","Округ","Рождаемость","Смертность","Прирост / убыль"];
+$("t").innerHTML="<tr>"+H.map((h,j)=>`<th data-i="${j?j:0}">${h}${S.ts===j?(S.td>0?" ▲":" ▼"):""}</th>`).join("")+"</tr>"+s.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${f1(r[2])}</td><td>${f1(r[3])}</td><td class="${r[4]>0?"pos":"neg"}">${sg(r[4])}</td></tr>`).join("");
+document.querySelectorAll("th").forEach(h=>h.onclick=()=>{const j=+h.dataset.i;S.td=S.ts===j?-S.td:(j>1?-1:1);S.ts=j;draw()})}
+function draw(){const a=flt();kpi(a);bars(a);sc(a);tab(a)}
+[["fd","fd"],["m","m"],["st","st"],["top","top"],["o","o"]].forEach(([id,k])=>$(id).onchange=e=>{S[k]=e.target.value;draw()});
+$("q").oninput=e=>{S.q=e.target.value;draw()};
+draw();
+</script></body></html>
