@@ -19,7 +19,7 @@
 
 ## Ссылки
 * [Открыть интерактивный дашборд (HTML)](https://polina279-z.github.io/demography-dashboard/)
-* [Файл дашборда Power BI] (ссылка на .pbix файл)
+* [Скачать дашборд Power BI (.pbix)](https://github.com/Polina279-Z/demography-dashboard/raw/main/demography_dashboard.pbix)
 
 ## Структура проекта
 * `index.html` — код веб-дашборда.
